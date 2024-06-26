@@ -1,0 +1,53 @@
+.content_img {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 50px;
+  height: 100px;
+  width: 80px;
+}
+
+p {
+  max-width: 60%;
+  margin: 0 auto; /* Center align the paragraph */
+  margin-top: 20px;
+  margin-left: 380px;
+}
+
+.side_img {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.side_img > div {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: flex-start; /* Align items to the start */
+  margin-right: 20px; /* Adjust spacing between text and image */
+}
+
+.side_img h2 {
+  margin: 0 0 10px 0; /* Remove default margin and add space below */
+  margin-top: 80px;
+  margin-right: 100px;
+}
+
+.small-btn {
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  font-size: large;
+  margin-top: 60px;
+  margin-left: 85px;
+}
+
+.small-btn:hover {
+  background-color: darkgreen;
+}

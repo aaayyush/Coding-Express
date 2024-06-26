@@ -1,0 +1,80 @@
+.navigation {
+  margin-left: 180px; /* Center align horizontally */
+  width: 1200px; /* Take full width of the viewport */
+  max-width: 1440px; /* Set maximum width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #f0f0f0; */
+}
+
+.logo img {
+  height: auto;
+  max-width: 70%;
+  display: block; /* Ensure image takes up full width */
+  /* margin-top: 15px; */
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+  padding-top: 2px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* Add gap between list items */
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* .list {
+  color: green;
+}
+
+.list:hover {
+  text-decoration: underline;
+}
+
+.list::after{
+  content: ;
+} */
+
+.list {
+  position: relative; /* Needed for the underline effect */
+  padding: 5px 10px; /* Add padding to the list items */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: green;
+}
+
+.list::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: green; /* Change the color of the underline as needed */
+  transition: width 0.3s; /* Animation duration */
+}
+
+.list:hover::after {
+  width: 100%;
+}
+
+.list {
+  margin: 0 10px;
+}
+
+.list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+}

@@ -1,0 +1,20 @@
+.about_img {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-left: 80px;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-left: 90px;
+}
